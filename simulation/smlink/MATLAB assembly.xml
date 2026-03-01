@@ -1,0 +1,2082 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no" ?>
+<SimscapeMultibodyImportXML version="2.0" xmlns="urn:mathworks:SimscapeMultibody:import" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+<Created by="" on="02/05/26||01:02:51" using="Simscape Multibody Link Version 7.4" from="SolidWorks 33.5.0"/>
+<ModelUnits mass="kilogram" length="millimeter"/>
+<DataUnits mass="kilogram" length="meter"/>
+<RootAssembly name="MATLAB assembly" uid="MATLAB assembly" version="1157">
+<AssemblyFile name="MATLAB assembly.SLDASM" type="SolidWorks Assembly"/>
+<InstanceTree>
+<Instance name="camber caster plate new-2" uid="camber caster plate new-2" entityUid="camber caster plate new*:*Default">
+<Transform>
+<Rotation>1 0 0 0 1 0 0 0 1</Rotation>
+<Translation>0.38542910263037938 0.031689725212294295 -0.083631806404661016</Translation>
+</Transform>
+</Instance>
+<Instance name="front wheel with bearing-4" uid="front wheel with bearing-4" entityUid="front wheel with bearing" rigid="true">
+<Transform>
+<Rotation>-0.99998597131728073 4.4301537586599335e-16 -0.0052969017958382041 4.4304469085148033e-16 1 0 0.0052969017958382041 0 -0.99998597131728073</Rotation>
+<Translation>0.3862408528303975 0.064689725212287913 0.80909861851389864</Translation>
+</Transform>
+<Instance name="front rim-1" uid="front rim-1" entityUid="front rim*:*Default">
+<Transform>
+<Rotation>1 0 0 0 1 0 0 0 1</Rotation>
+<Translation>0 0 0</Translation>
+</Transform>
+</Instance>
+<Instance name="front tyre-1" uid="front tyre-1" entityUid="front tyre*:*Default">
+<Transform>
+<Rotation>1 0 0 0 1 0 0 0 1</Rotation>
+<Translation>0 0 0</Translation>
+</Transform>
+</Instance>
+</Instance>
+<Instance name="Rose joint Ball-1" uid="Rose joint Ball-1" entityUid="Rose joint Ball*:*Default">
+<Transform>
+<Rotation>0.64948453328386546 0.48181193533142436 0.58824068203179103 0.47243709876037598 0.35047152197019588 -0.80868590936331586 -0.5957961301820599 0.80313571160799579 -1.3600232051658168e-15</Rotation>
+<Translation>0.39852339089958827 0.015199999999934995 0.26872422608672497</Translation>
+</Transform>
+</Instance>
+<Instance name="Hiem joint Body - Copy-1" uid="Hiem joint Body - Copy-1" entityUid="Hiem joint Body - Copy*:*Default">
+<Transform>
+<Rotation>-0.50468911761153856 -0.80286125436030209 -0.31733688851359404 -0.013223595589916417 -0.36035291339631387 0.93272231362097435 -0.86319987898757333 0.47493113611742821 0.17124948134825915</Rotation>
+<Translation>0.43125645356361325 0.029891771998277708 0.24936104153248337</Translation>
+</Transform>
+</Instance>
+<Instance name="steering column and tripod-1" uid="steering column and tripod-1" entityUid="steering column and tripod*:*Default">
+<Transform>
+<Rotation>0.0014693857187156778 0.808684574422182 0.58824068203178881 0.0010688358079926996 0.58823971099139472 -0.80868590936331763 -0.99999834924645015 0.0018170042308186828 -1.5725118295919696e-15</Rotation>
+<Translation>0.30896239451180296 0.069920352968914454 0.26865111338980308</Translation>
+</Transform>
+</Instance>
+<Instance name="camber caster plate new-1" uid="camber caster plate new-1" grounded="true" entityUid="camber caster plate new*:*Default">
+<Transform>
+<Rotation>1 0 0 0 1 0 0 0 1</Rotation>
+<Translation>0.38542910263037911 0.031689725212294295 0.61508025857816229</Translation>
+</Transform>
+</Instance>
+<Instance name="Chassis 25-12-2025-1" uid="Chassis 25-12-2025-1" grounded="true" entityUid="Chassis 25-12-2025*:*Default&lt;As Machined&gt;">
+<Transform>
+<Rotation>-3.4914813388431334e-15 1.3965925355372533e-14 1 0 1 -1.3965925355372533e-14 -1 0 -3.4914813388431334e-15</Rotation>
+<Translation>-0.26872422608672231 0 0.26872422608672325</Translation>
+</Transform>
+<VisualProperties>
+<Ambient r="0.058823529411764705" g="0.058823529411764705" b="0.058823529411764705" a="1"/>
+<Diffuse r="0.058823529411764705" g="0.058823529411764705" b="0.058823529411764705" a="1"/>
+<Specular r="0.055882352941176466" g="0.055882352941176466" b="0.055882352941176466" a="1"/>
+<Emissive r="0" g="0" b="0" a="1"/>
+<Shininess>0.3125</Shininess>
+</VisualProperties>
+</Instance>
+<Instance name="base plate steering-1" uid="base plate steering-1" grounded="true" entityUid="base plate steering*:*Default&lt;As Machined&gt;">
+<Transform>
+<Rotation>0 0 1 2.1616891301246975e-13 1 0 -1 2.1616891301246975e-13 0</Rotation>
+<Translation>0.39852339089958883 0.012699999999935069 0.26872422608672364</Translation>
+</Transform>
+</Instance>
+<Instance name="MANCAL UCFL208CC-2" uid="MANCAL UCFL208CC-2" entityUid="MANCAL UCFL208CC*:*Default">
+<Transform>
+<Rotation>-6.8761904310963062e-15 1 -1.8294370835825577e-14 0 -1.8294370835825577e-14 -1 -1 -6.8761904310963077e-15 0</Rotation>
+<Translation>-0.62603584450466732 0.061711885563707436 0.69072422608672635</Translation>
+</Transform>
+</Instance>
+<Instance name="rear wheel-3" uid="rear wheel-3" entityUid="rear wheel" rigid="true">
+<Transform>
+<Rotation>0.92578142539602959 0.37805919165085222 -3.491481341130684e-15 0.37805919165085222 -0.92578142539602959 0 -3.2323485721209579e-15 -1.3199866149970341e-15 -1</Rotation>
+<Translation>-0.62603584450467153 0.061711885563709143 0.84622422608672165</Translation>
+</Transform>
+<Instance name="rear rim-1" uid="rear rim-1" grounded="true" entityUid="rear rim*:*Default">
+<Transform>
+<Rotation>1 0 0 0 1 0 0 0 1</Rotation>
+<Translation>0 0 0</Translation>
+</Transform>
+</Instance>
+<Instance name="Rear Tyre-1" uid="Rear Tyre-1" entityUid="Rear Tyre*:*Default">
+<Transform>
+<Rotation>1 0 0 0 1 0 0 0 1</Rotation>
+<Translation>0 0 0.013970000000000038</Translation>
+</Transform>
+</Instance>
+</Instance>
+<Instance name="SidePods-2" uid="SidePods-2" grounded="true" entityUid="SidePods*:*Default">
+<Transform>
+<Rotation>-0.024788196700632533 -1.2914749830537136e-14 0.99969272544333898 -1.4454583363576745e-15 -1 -1.2956283723837558e-14 0.99969272544333876 -1.7661653389788867e-15 0.02478819670063255</Rotation>
+<Translation>-2.7462628695942071 1.3203595871910967 -0.49683580369571118</Translation>
+</Transform>
+</Instance>
+<Instance name="main shaft-1" uid="main shaft-1" entityUid="main shaft*:*Default">
+<Transform>
+<Rotation>0.55360676753976357 0.83277820992997575 3.6024171290240887e-15 -0.83277820992997575 0.55360676753976357 0 -2.071357397233723e-15 -2.9488039271926154e-15 1</Rotation>
+<Translation>-0.62603584450467553 0.061711885563709157 -0.30627577391327826</Translation>
+</Transform>
+</Instance>
+<Instance name="bucket seat-2" uid="bucket seat-2" grounded="true" entityUid="bucket seat*:*Default">
+<Transform>
+<Rotation>-3.4914813388431334e-15 0 1 0 1 0 -1 0 -3.4914813388431334e-15</Rotation>
+<Translation>-0.22719070224676757 0.039278681542821894 0.26583248051139208</Translation>
+</Transform>
+</Instance>
+<Instance name="FrontPanels-2" uid="FrontPanels-2" grounded="true" entityUid="FrontPanels*:*Default">
+<Transform>
+<Rotation>0 -1 -3.4914813388431334e-15 -3.4914813388431334e-15 -3.4914813388431334e-15 1 -1 0 -3.4914813388431334e-15</Rotation>
+<Translation>-0.27575816952932947 -0.020148231804550533 0.26680163405625129</Translation>
+</Transform>
+</Instance>
+<Instance name="bush-1" uid="bush-1" entityUid="bush*:*Default">
+<Transform>
+<Rotation>-3.4083411383526122e-15 -0.58824068203179103 0.8086859093633163 -5.9861244035919552e-16 0.8086859093633163 0.58824068203179103 -1 1.5208354701334807e-15 -3.108405643078689e-15</Rotation>
+<Translation>0.14169781916454169 0.35099999999999415 0.26872422608672486</Translation>
+</Transform>
+</Instance>
+<Instance name="xmas bearing-1" uid="xmas bearing-1" entityUid="xmas bearing*:*Default">
+<Transform>
+<Rotation>1 3.6540428907435638e-16 -1.2162749717934548e-14 -1.2162749717934548e-14 -2.0122792321330962e-16 -1 -3.6540428907435885e-16 1 -2.0122792321330962e-16</Rotation>
+<Translation>-0.72883273837329454 0.11000000000000637 -0.17577577391327978</Translation>
+</Transform>
+</Instance>
+<Instance name="xmas bearing left-1" uid="xmas bearing left-1" entityUid="xmas bearing left*:*Default">
+<Transform>
+<Rotation>1 6.8761904310963212e-15 -1.2163789278156892e-14 -1.2163789278156904e-14 -1.6653345369377348e-16 -1.0000000000000002 -6.8761904310963275e-15 1.0000000000000002 -1.6653345369377348e-16</Rotation>
+<Translation>-0.7288327383732901 0.11000000000000644 0.7132242260867272</Translation>
+</Transform>
+</Instance>
+<Instance name="MANCAL UCFL208CC-1" uid="MANCAL UCFL208CC-1" entityUid="MANCAL UCFL208CC*:*Default">
+<Transform>
+<Rotation>4.9157378046187138e-16 0.99999999999999989 1.9271041979561205e-14 0 -1.9271041979561212e-14 1 1 -4.915737804618704e-16 0</Rotation>
+<Translation>-0.62603584450467165 0.061711885563707457 -0.15327577391327987</Translation>
+</Transform>
+</Instance>
+<Instance name="rear wheel-2" uid="rear wheel-2" entityUid="rear wheel" rigid="true">
+<Transform>
+<Rotation>-0.99849145350323909 -0.054907351793627525 3.5153967780128196e-15 0.054907351793627525 -0.99849145350323909 -1.2010682576970645e-16 3.5166883862539775e-15 0 1</Rotation>
+<Translation>-0.62603584450467553 0.061711885563709164 -0.30877577391327832</Translation>
+</Transform>
+<Instance name="rear rim-1" uid="rear rim-1" grounded="true" entityUid="rear rim*:*Default">
+<Transform>
+<Rotation>1 0 0 0 1 0 0 0 1</Rotation>
+<Translation>0 0 0</Translation>
+</Transform>
+</Instance>
+<Instance name="Rear Tyre-1" uid="Rear Tyre-1" entityUid="Rear Tyre*:*Default">
+<Transform>
+<Rotation>1 0 0 0 1 0 0 0 1</Rotation>
+<Translation>0 0 0.013969999999999982</Translation>
+</Transform>
+</Instance>
+</Instance>
+<Instance name="Assembly-1" uid="Assembly-1" entityUid="Assembly" rigid="true">
+<Transform>
+<Rotation>0.58824068203179047 0.0082446706160806821 0.80864388046234925 -0.80868590936331641 0.005997199419675003 0.58821011007661783 -2.2723161867411175e-15 -0.99994802815224015 0.010195145631476499</Rotation>
+<Translation>0.059146753011489507 0.4817592051183941 0.26872422608686175</Translation>
+</Transform>
+<Instance name="Handle left front-1" uid="Handle left front-1" entityUid="Handle left front*:*Default">
+<Transform>
+<Rotation>1 0 0 0 1 -1.0471062194400416e-09 -1.8970004813836052e-16 1.0471062229094885e-09 1</Rotation>
+<Translation>-0.0049999999999999489 0.11810042662064285 0.049599999999999977</Translation>
+</Transform>
+</Instance>
+<Instance name="Handle left back-1" uid="Handle left back-1" entityUid="Handle left back*:*Default">
+<Transform>
+<Rotation>1 0 0 0 1 -1.0471062784206397e-09 -1.8970004813836052e-16 1.0471062818900867e-09 1</Rotation>
+<Translation>0.0030000000000000582 0.22398975781908192 -0.090605333522787546</Translation>
+</Transform>
+</Instance>
+<Instance name="Handle right front-1" uid="Handle right front-1" entityUid="Handle right front*:*Default">
+<Transform>
+<Rotation>-1 0 1.8970004813684738e-16 0 -1 1.0471062957678743e-09 1.8970004813836052e-16 1.0471062957678743e-09 1</Rotation>
+<Translation>-0.00500000000000006 -0.11810042662064285 0.049599999999999977</Translation>
+</Transform>
+</Instance>
+<Instance name="Handle right back-1" uid="Handle right back-1" entityUid="Handle right back*:*Default">
+<Transform>
+<Rotation>1 0 1.8970004813684738e-16 0 1 1.0471063235234499e-09 -1.8970004813836052e-16 -1.0471063235234499e-09 1</Rotation>
+<Translation>0.0030000000000000582 -0.22398975781908192 -0.090605333522787462</Translation>
+</Transform>
+</Instance>
+<Instance name="Steering Wheel 3-1" uid="Steering Wheel 3-1" grounded="true" entityUid="Steering Wheel 3*:*Default">
+<Transform>
+<Rotation>1 0 0 0 1 0 0 0 1</Rotation>
+<Translation>0 0 0</Translation>
+</Transform>
+</Instance>
+</Instance>
+<Instance name="Rose joint Ball-4" uid="Rose joint Ball-4" entityUid="Rose joint Ball*:*Default">
+<Transform>
+<Rotation>-0.86725105725094087 -0.49787107135997133 1.6572354643200596e-15 -1.5366811108950214e-15 -6.8748425051203788e-16 -1 0.49787107135997144 -0.86725105725094076 -1.6514661358741767e-16</Rotation>
+<Translation>0.38542910263037899 0.097689725212294298 -0.11840231623591078</Translation>
+</Transform>
+</Instance>
+<Instance name="Rose joint Ball-5" uid="Rose joint Ball-5" entityUid="Rose joint Ball*:*Default">
+<Transform>
+<Rotation>-0.86725105725094087 -0.49787107135997127 1.7869860807067162e-15 -1.6186464078352697e-15 -7.920783308812269e-16 -1 0.49787107135997133 -0.86725105725094076 -1.1737359874764046e-16</Rotation>
+<Translation>0.38542910263037899 0.031689725212294295 -0.11840231623591078</Translation>
+</Transform>
+</Instance>
+<Instance name="Hiem joint Body-3" uid="Hiem joint Body-3" entityUid="Hiem joint Body*:*Default">
+<Transform>
+<Rotation>0.99604328332623793 -4.019121998439313e-15 -0.088869442108564914 0.088869442108564969 0 0.99604328332623793 -4.007403213954513e-15 -1 3.1028599871545444e-16</Rotation>
+<Translation>0.38542910263037916 0.097689725212294298 -0.077631806404662357</Translation>
+</Transform>
+</Instance>
+<Instance name="Hiem joint Body-4" uid="Hiem joint Body-4" entityUid="Hiem joint Body*:*Default">
+<Transform>
+<Rotation>-0.9986168886535931 -2.9624773461115386e-15 -0.052576702975915268 0.052576702975915213 0 -0.9986168886535931 2.9569155538467019e-15 -1 1.835705772983063e-16</Rotation>
+<Translation>0.38542910263037911 0.031689725212294295 -0.077631806404662357</Translation>
+</Transform>
+</Instance>
+<Instance name="hub steering real 1-2" uid="hub steering real 1-2" entityUid="hub steering real 1*:*Default">
+<Transform>
+<Rotation>0.0077629391941831175 1.7590179631840985e-15 -0.99996986793356324 0 -1 -1.7588258166586717e-15 -0.99996986793356324 0 -0.0077629391941831175</Rotation>
+<Translation>0.38542910263042807 0.064689725212294519 -0.11840231623580062</Translation>
+</Transform>
+</Instance>
+<Instance name="Rose joint Ball-6" uid="Rose joint Ball-6" entityUid="Rose joint Ball*:*Default">
+<Transform>
+<Rotation>1 8.485291217860676e-14 -1.7170994255142382e-15 1.7170994255142576e-15 -3.0779898042726115e-16 1 8.4852912178606571e-14 -1 -3.0779898042740689e-16</Rotation>
+<Translation>0.30194714453631111 0.072254725212294146 -0.12105046139451373</Translation>
+</Transform>
+</Instance>
+<Instance name="Rose joint Ball-7" uid="Rose joint Ball-7" entityUid="Rose joint Ball*:*Default">
+<Transform>
+<Rotation>-0.86725105725094076 -0.49787107135997105 1.7520427531090636e-15 -1.6363347686994857e-15 -6.6870664734254493e-16 -0.99999999999999989 0.49787107135997105 -0.86725105725094076 -2.3474719749734808e-16</Rotation>
+<Translation>0.30194086782897855 0.07225472521229416 0.65829303165202246</Translation>
+</Transform>
+</Instance>
+<Instance name="Hiem joint Body-5" uid="Hiem joint Body-5" entityUid="Hiem joint Body*:*Default">
+<Transform>
+<Rotation>0.98458037614230787 0.063726973664303702 -0.16291211048617779 0.15991141384174962 0.049683708007813777 0.98588025078187214 0.070921242506065463 -0.99672985406587666 0.038726933459963142</Rotation>
+<Translation>0.29934896333001337 0.070229095106508155 -0.080413277080226386</Translation>
+</Transform>
+</Instance>
+<Instance name="Rose joint Ball-9" uid="Rose joint Ball-9" entityUid="Rose joint Ball*:*Default">
+<Transform>
+<Rotation>0.80868590936331608 1.1508651515638156e-13 -0.58824068203179103 0.58824068203179103 8.6171416609770393e-14 0.80868590936331608 1.4375837604287041e-13 -1 1.9870402339453458e-15</Rotation>
+<Translation>0.27788916249495743 0.053500456145221399 0.28258792765889423</Translation>
+</Transform>
+</Instance>
+<Instance name="Hiem joint Body-7" uid="Hiem joint Body-7" entityUid="Hiem joint Body*:*Default">
+<Transform>
+<Rotation>0.63674402371789351 -0.063726973664304798 0.76843732411117016 0.76702334721944176 -0.04968370800781452 -0.63969267150630837 0.078944493663776996 0.99672985406587644 0.017244272498039517</Rotation>
+<Translation>0.28052848650137163 0.055556013653625266 0.2139507895656981</Translation>
+</Transform>
+</Instance>
+<Instance name="Hiem joint Body-6" uid="Hiem joint Body-6" entityUid="Hiem joint Body*:*Default">
+<Transform>
+<Rotation>-0.99417295407825579 0.063807609359044712 0.086883406742588459 0.090121630902390115 0.049753855613452851 0.99468720987810488 0.059145828448064569 0.9967211961423712 -0.055214383431429134</Rotation>
+<Translation>0.29933939906430251 0.070226235152868466 0.61765620032568325</Translation>
+</Transform>
+</Instance>
+<Instance name="Rose joint Ball-8" uid="Rose joint Ball-8" entityUid="Rose joint Ball*:*Default">
+<Transform>
+<Rotation>0.80868590936331608 1.1508651515638156e-13 -0.58824068203179103 0.58824068203179103 8.6171416609770393e-14 0.80868590936331608 1.4375837604287041e-13 -1 1.9870402339453458e-15</Rotation>
+<Translation>0.27793030529507207 0.053530383547838421 0.2545879738799936</Translation>
+</Transform>
+</Instance>
+<Instance name="Hiem joint Body-8" uid="Hiem joint Body-8" entityUid="Hiem joint Body*:*Default">
+<Transform>
+<Rotation>-0.63481417025156495 -0.063807609359043796 0.77002568673759242 -0.76861494247503137 -0.049753855613452615 -0.63777396000126874 0.079006578535723238 -0.99672119614237131 -0.017459029428900631</Rotation>
+<Translation>0.28049063125964108 0.055528946204654366 0.32322475898522779</Translation>
+</Transform>
+</Instance>
+<Instance name="tierod steering-1" uid="tierod steering-1" entityUid="tierod steering*:*Default">
+<Transform>
+<Rotation>0.063726973664304215 0.9929861594736169 -0.099585942388602841 0.049683708007813847 -0.10282183957414458 -0.99345820166989585 -0.99672985406587644 0.058362285771086146 -0.055887759065744481</Rotation>
+<Translation>0.30030486793497796 0.070974350726625265 -0.095364224891213753</Translation>
+</Transform>
+</Instance>
+<Instance name="tierod steering-2" uid="tierod steering-2" entityUid="tierod steering*:*Default">
+<Transform>
+<Rotation>-0.063807609359043962 0.9930079789034304 -0.099316377410819973 -0.049753855613453038 -0.10256078278129643 -0.99348167556673317 -0.99672119614237131 -0.058450317958181397 0.055950133968634803</Rotation>
+<Translation>0.27955904016299921 0.05480253991269745 0.30867262952154911</Translation>
+</Transform>
+</Instance>
+<Instance name="front wheel with bearing-3" uid="front wheel with bearing-3" entityUid="front wheel with bearing" rigid="true">
+<Transform>
+<Rotation>0.99996986793356313 0 -0.0077629391941831929 0 1 0 0.0077629391941831929 0 0.99996986793356313</Rotation>
+<Translation>0.3866187730619382 0.064689725212285165 -0.27164769849661918</Translation>
+</Transform>
+<Instance name="front rim-1" uid="front rim-1" entityUid="front rim*:*Default">
+<Transform>
+<Rotation>1 0 0 0 1 0 0 0 1</Rotation>
+<Translation>0 0 0</Translation>
+</Transform>
+</Instance>
+<Instance name="front tyre-1" uid="front tyre-1" entityUid="front tyre*:*Default">
+<Transform>
+<Rotation>1 0 0 0 1 0 0 0 1</Rotation>
+<Translation>0 0 0</Translation>
+</Transform>
+</Instance>
+</Instance>
+<Instance name="Hiem joint Body-1" uid="Hiem joint Body-1" entityUid="Hiem joint Body*:*Default">
+<Transform>
+<Rotation>-0.99604328332623793 5.2764065959721128e-16 0.088869442108564969 0.088869442108564969 0 0.99604328332623793 5.1885330976000656e-16 1 -1.2198012187278075e-16</Rotation>
+<Translation>0.38542910263037911 0.097689725212294271 0.61508025857816229</Translation>
+</Transform>
+</Instance>
+<Instance name="Rose joint Ball-2" uid="Rose joint Ball-2" entityUid="Rose joint Ball*:*Default">
+<Transform>
+<Rotation>-0.86725105725094076 -0.49787107135997105 1.7520427531090636e-15 -1.6363347686994857e-15 -6.6870664734254493e-16 -0.99999999999999989 0.49787107135997105 -0.86725105725094076 -2.3474719749734808e-16</Rotation>
+<Translation>0.38542910263037911 0.097689725212294312 0.65585076840941059</Translation>
+</Transform>
+</Instance>
+<Instance name="Rose joint Ball-3" uid="Rose joint Ball-3" entityUid="Rose joint Ball*:*Default">
+<Transform>
+<Rotation>-0.99952031218010884 0.030970074901071384 -1.7869860807051006e-15 -1.7970340926821602e-15 -2.9660879542131337e-16 1 0.030970074901071388 0.99952031218010873 3.521207962453153e-16</Rotation>
+<Translation>0.38542910263037927 0.031689725212294302 0.65585076840941059</Translation>
+</Transform>
+</Instance>
+<Instance name="Hiem joint Body-2" uid="Hiem joint Body-2" entityUid="Hiem joint Body*:*Default">
+<Transform>
+<Rotation>0.9986168886535931 -5.2900399273159042e-16 0.052576702975915213 0.052576702975915213 0 -0.9986168886535931 5.2329788843998765e-16 1 1.222952976264118e-16</Rotation>
+<Translation>0.38542910263037916 0.031689725212294309 0.61508025857816229</Translation>
+</Transform>
+</Instance>
+<Instance name="hub steering real 1-1" uid="hub steering real 1-1" entityUid="hub steering real 1*:*Default">
+<Transform>
+<Rotation>0.0052969017958387384 -1.7230533527176588e-15 -0.99998597131728084 0 1 -1.7230544252494103e-15 0.99998597131728084 0 0.0052969017958387384</Rotation>
+<Translation>0.38542910263018454 0.064689725212294436 0.65585076840952505</Translation>
+</Transform>
+</Instance>
+</InstanceTree>
+<Constraints>
+<Tangent name="Tangent1">
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>base plate steering-1</Uid>
+</InstancePath>
+<Position>0 0 0</Position>
+<Axis>0 -1 0</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>Chassis 25-12-2025-1</Uid>
+</InstancePath>
+<Position>-0.12047678490641078 1.7094792645173462e-15 0.61407576626022076</Position>
+<Axis>-0.085564822163872081 -4.5819723618824053e-15 0.9963326057136066</Axis>
+</ConstraintGeometry>
+</Tangent>
+<Tangent name="Tangent2">
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>base plate steering-1</Uid>
+</InstancePath>
+<Position>0 0 0</Position>
+<Axis>0 -1 0</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>Chassis 25-12-2025-1</Uid>
+</InstancePath>
+<Position>0.12047678490640987 1.7649904157404685e-15 0.61407576626022065</Position>
+<Axis>0.085564822163874274 -4.5819723618606059e-15 0.9963326057136066</Axis>
+</ConstraintGeometry>
+</Tangent>
+<Parallel name="Parallel1">
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>base plate steering-1</Uid>
+</InstancePath>
+<Position>0.12699999999999997 0.0059999999999999967 -0.019050000000000011</Position>
+<Axis>-1.2293315971489184e-16 0 -1</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>MATLAB assembly</Uid>
+</InstancePath>
+<Position>0 0 0</Position>
+<Axis>1 0 0</Axis>
+</ConstraintGeometry>
+</Parallel>
+<Concentric name="Concentric11">
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>Chassis 25-12-2025-1</Uid>
+</InstancePath>
+<Position>-0.43179999999999774 1.1784164370816459e-15 0.1860914877134266</Position>
+<Axis>-3.1941607310535999e-15 -1.7003411354488012e-15 -1</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>xmas bearing left-1</Uid>
+</InstancePath>
+<Position>-0.0014999999999999458 -0.012700000000000045 0.11000000000000007</Position>
+<Axis>1 1.2246467991472963e-16 0</Axis>
+</ConstraintGeometry>
+</Concentric>
+<Concentric name="Concentric12">
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>Chassis 25-12-2025-1</Uid>
+</InstancePath>
+<Position>0.43179999999999996 0 -0.47430851228657306</Position>
+<Axis>-3.1941607310535999e-15 1.7003411354488012e-15 1</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>xmas bearing-1</Uid>
+</InstancePath>
+<Position>-0.0014999999999999458 0.012699999999999989 0.10999999999999999</Position>
+<Axis>-1 0 0</Axis>
+</ConstraintGeometry>
+</Concentric>
+<Concentric name="Concentric18">
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>xmas bearing-1</Uid>
+</InstancePath>
+<Position>0.17479689386862352 0.0044999999999999762 0.048288114436298171</Position>
+<Axis>0 -1 0</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>MANCAL UCFL208CC-1</Uid>
+</InstancePath>
+<Position>-0.02200000000000002 0.071999999999999953 0</Position>
+<Axis>1 0 0</Axis>
+</ConstraintGeometry>
+</Concentric>
+<Concentric name="Concentric19">
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>xmas bearing-1</Uid>
+</InstancePath>
+<Position>0.030796893868623276 0.0044999999999999762 0.048288114436297172</Position>
+<Axis>0 -1 0</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>MANCAL UCFL208CC-1</Uid>
+</InstancePath>
+<Position>-0.021999999999999992 -0.071999999999999953 0</Position>
+<Axis>1 0 0</Axis>
+</ConstraintGeometry>
+</Concentric>
+<Coincident name="Coincident37">
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>xmas bearing-1</Uid>
+</InstancePath>
+<Position>0 0.0014999999999999736 0.10999999999999999</Position>
+<Axis>0 1 0</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>MANCAL UCFL208CC-1</Uid>
+</InstancePath>
+<Position>-0.020999999999999991 0 0</Position>
+<Axis>-1 0 0</Axis>
+</ConstraintGeometry>
+</Coincident>
+<Concentric name="Concentric20">
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>xmas bearing left-1</Uid>
+</InstancePath>
+<Position>0.030796893868623387 0.0044999999999999485 0.048288114436297214</Position>
+<Axis>0 -1.0000000000000002 0</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>MANCAL UCFL208CC-2</Uid>
+</InstancePath>
+<Position>-0.02200000000000002 -0.071999999999999953 0</Position>
+<Axis>1 0 0</Axis>
+</ConstraintGeometry>
+</Concentric>
+<Concentric name="Concentric21">
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>xmas bearing left-1</Uid>
+</InstancePath>
+<Position>0.17479689386862352 0.0045000000000000595 0.048288114436298213</Position>
+<Axis>0 -1.0000000000000002 0</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>MANCAL UCFL208CC-2</Uid>
+</InstancePath>
+<Position>-0.02200000000000002 0.072000000000000064 0</Position>
+<Axis>1 0 0</Axis>
+</ConstraintGeometry>
+</Concentric>
+<Coincident name="Coincident38">
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>xmas bearing left-1</Uid>
+</InstancePath>
+<Position>0 -0.0015000000000000568 0.11000000000000006</Position>
+<Axis>0 -1.0000000000000002 0</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>MANCAL UCFL208CC-2</Uid>
+</InstancePath>
+<Position>-0.021000000000000019 0 0</Position>
+<Axis>-1 0 0</Axis>
+</ConstraintGeometry>
+</Coincident>
+<Concentric name="Concentric22">
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>MANCAL UCFL208CC-2</Uid>
+</InstancePath>
+<Position>-0.019000000000000017 0 0</Position>
+<Axis>-1 0 0</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>main shaft-1</Uid>
+</InstancePath>
+<Position>0 0 1.1499999999999999</Position>
+<Axis>0 0 -1</Axis>
+</ConstraintGeometry>
+</Concentric>
+<Concentric name="Concentric23">
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>MANCAL UCFL208CC-1</Uid>
+</InstancePath>
+<Position>-0.018999999999999989 0 0</Position>
+<Axis>-1 0 0</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>main shaft-1</Uid>
+</InstancePath>
+<Position>0 0 1.1499999999999999</Position>
+<Axis>0 0 -1</Axis>
+</ConstraintGeometry>
+</Concentric>
+<Concentric name="Concentric31">
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>main shaft-1</Uid>
+</InstancePath>
+<Position>0 0 1.1499999999999999</Position>
+<Axis>0 0 -1</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>MATLAB assembly</Uid>
+</InstancePath>
+<Position>-0.62603584450467598 0.061711885563707478 -0.30877577391327554</Position>
+<Axis>3.5153967780119724e-15 -1.2010682576764737e-16 1</Axis>
+</ConstraintGeometry>
+</Concentric>
+<Coincident name="Coincident40">
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>main shaft-1</Uid>
+</InstancePath>
+<Position>0 0 0</Position>
+<Axis>0 0 -1</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>MATLAB assembly</Uid>
+</InstancePath>
+<Position>-0.62175479176741599 0.079195380279032543 -0.30627577391327554</Position>
+<Axis>3.5153967780119724e-15 -1.2010682576764737e-16 1</Axis>
+</ConstraintGeometry>
+</Coincident>
+<Concentric name="Concentric32">
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>MATLAB assembly</Uid>
+</InstancePath>
+<Position>-0.62603584450467187 0.061711885563707373 0.84622422608672432</Position>
+<Axis>-3.4914813411306884e-15 0 -1</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>main shaft-1</Uid>
+</InstancePath>
+<Position>0 0 1.1499999999999999</Position>
+<Axis>0 0 -1</Axis>
+</ConstraintGeometry>
+</Concentric>
+<Coincident name="Coincident41">
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>main shaft-1</Uid>
+</InstancePath>
+<Position>0 0 1.1499999999999999</Position>
+<Axis>0 0 1</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>MATLAB assembly</Uid>
+</InstancePath>
+<Position>-0.60967052341410755 0.054216802802141049 0.84372422608672426</Position>
+<Axis>-3.4914813411306884e-15 0 -1</Axis>
+</ConstraintGeometry>
+</Coincident>
+<Tangent name="Tangent15">
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>Chassis 25-12-2025-1</Uid>
+</InstancePath>
+<Position>0.43179999999999974 0 -0.47430851228657306</Position>
+<Axis>-1 0 0</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>xmas bearing left-1</Uid>
+</InstancePath>
+<Position>-0.0015000000000000568 0 0.11000000000000007</Position>
+<Axis>-1 -1.2246467991472963e-16 0</Axis>
+</ConstraintGeometry>
+</Tangent>
+<Concentric name="Concentric36">
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>Chassis 25-12-2025-1</Uid>
+</InstancePath>
+<Position>-0.066421000000000063 0.35100000000000003 0.41042204525125914</Position>
+<Axis>1 0 0</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>bush-1</Uid>
+</InstancePath>
+<Position>0.031749999999999973 0 0</Position>
+<Axis>-1 0 0</Axis>
+</ConstraintGeometry>
+</Concentric>
+<Concentric name="Concentric37">
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>main shaft-1</Uid>
+</InstancePath>
+<Position>0 0 1.1499999999999999</Position>
+<Axis>0 0 -1</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>rear wheel-2</Uid>
+<Uid>rear rim-1</Uid>
+</InstancePath>
+<Position>0 0 0</Position>
+<Axis>0 0 1</Axis>
+</ConstraintGeometry>
+</Concentric>
+<Coincident name="Coincident48">
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>main shaft-1</Uid>
+</InstancePath>
+<Position>0 0 0</Position>
+<Axis>0 0 -1</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>rear wheel-2</Uid>
+<Uid>rear rim-1</Uid>
+</InstancePath>
+<Position>-1.1102230246251565e-16 0.018000000000000002 0.0025000000000000022</Position>
+<Axis>0 0 1</Axis>
+</ConstraintGeometry>
+</Coincident>
+<Concentric name="Concentric38">
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>main shaft-1</Uid>
+</InstancePath>
+<Position>0 0 1.1499999999999999</Position>
+<Axis>0 0 -1</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>rear wheel-3</Uid>
+<Uid>rear rim-1</Uid>
+</InstancePath>
+<Position>0 0 0</Position>
+<Axis>0 0 1</Axis>
+</ConstraintGeometry>
+</Concentric>
+<Coincident name="Coincident49">
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>main shaft-1</Uid>
+</InstancePath>
+<Position>0 0 1.1499999999999999</Position>
+<Axis>0 0 1</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>rear wheel-3</Uid>
+<Uid>rear rim-1</Uid>
+</InstancePath>
+<Position>1.1102230246251565e-16 0.018000000000000016 0.0024999999999999467</Position>
+<Axis>0 0 1</Axis>
+</ConstraintGeometry>
+</Coincident>
+<Tangent name="Tangent29">
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>Chassis 25-12-2025-1</Uid>
+</InstancePath>
+<Position>0.64033248243670016 -4.6544555254860183e-16 -0.040105575176348662</Position>
+<Axis>-0.16439898730535549 7.2710241002688101e-16 0.98639392383214419</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>SidePods-2</Uid>
+</InstancePath>
+<Position>0.037787965428618842 1.1622208407141339 2.3395992694855208</Position>
+<Axis>0.99016598451121562 0 -0.13989754507115232</Axis>
+</ConstraintGeometry>
+</Tangent>
+<Tangent name="Tangent31">
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>Chassis 25-12-2025-1</Uid>
+</InstancePath>
+<Position>0.58529914910336722 0.16509999999999991 0.29009442482365111</Position>
+<Axis>0.16439898730535546 0 -0.98639392383214408</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>SidePods-2</Uid>
+</InstancePath>
+<Position>0.037787965428618842 1.1622208407141339 2.3395992694855208</Position>
+<Axis>0.99016598451121562 0 -0.13989754507115232</Axis>
+</ConstraintGeometry>
+</Tangent>
+<Tangent name="Tangent32">
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>Chassis 25-12-2025-1</Uid>
+</InstancePath>
+<Position>0.64033248243670016 -4.6544555254860183e-16 -0.040105575176348662</Position>
+<Axis>-0.16439898730535549 7.2710241002688101e-16 0.98639392383214419</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>SidePods-2</Uid>
+</InstancePath>
+<Position>0.073772328493931338 1.3330595871910649 2.6085780586589529</Position>
+<Axis>0 -1 0</Axis>
+</ConstraintGeometry>
+</Tangent>
+<Concentric name="Concentric41">
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>steering column and tripod-1</Uid>
+</InstancePath>
+<Position>0 0.040238044478832224 0.10200000000000001</Position>
+<Axis>0 0 -1</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="sphere">
+<InstancePath>
+<Uid>Rose joint Ball-1</Uid>
+</InstancePath>
+<Position>0 0 0</Position>
+</ConstraintGeometry>
+</Concentric>
+<Coincident name="Coincident50">
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>Rose joint Ball-1</Uid>
+</InstancePath>
+<Position>-0.010000000000000009 0.0091097282341587871 0.0050649999999999862</Position>
+<Axis>0 -2.7142314094796075e-16 1</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>steering column and tripod-1</Uid>
+</InstancePath>
+<Position>0 0.040238044478832224 0.10200000000000001</Position>
+<Axis>0 0 1</Axis>
+</ConstraintGeometry>
+</Coincident>
+<Concentric name="Concentric42">
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>Assembly-1</Uid>
+<Uid>Steering Wheel 3-1</Uid>
+</InstancePath>
+<Position>0.0030000000000000582 0 0</Position>
+<Axis>-1 0 1.8970004813836052e-16</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>steering column and tripod-1</Uid>
+</InstancePath>
+<Position>0 0.040238044478832169 0.077000000000000013</Position>
+<Axis>0 0 -1</Axis>
+</ConstraintGeometry>
+</Concentric>
+<Concentric name="Concentric43">
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>bush-1</Uid>
+</InstancePath>
+<Position>0 0.012700000000000017 0.010160000000000002</Position>
+<Axis>0 -1.0000000000000002 0</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>steering column and tripod-1</Uid>
+</InstancePath>
+<Position>0 0.040238044478832169 0.077000000000000013</Position>
+<Axis>0 0 -1</Axis>
+</ConstraintGeometry>
+</Concentric>
+<Concentric name="Concentric44">
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>base plate steering-1</Uid>
+</InstancePath>
+<Position>0 0.0059999999999999967 0</Position>
+<Axis>0 -1 0</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="sphere">
+<InstancePath>
+<Uid>Hiem joint Body - Copy-1</Uid>
+</InstancePath>
+<Position>0 0.040770509831248414 0</Position>
+</ConstraintGeometry>
+</Concentric>
+<Coincident name="Coincident52">
+<ConstraintGeometry geomType="circle">
+<InstancePath>
+<Uid>base plate steering-1</Uid>
+</InstancePath>
+<Position>0 0.0059999999999999967 0</Position>
+<Axis>0 1 0</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="sphere">
+<InstancePath>
+<Uid>Hiem joint Body - Copy-1</Uid>
+</InstancePath>
+<Position>0 0.040770509831248414 0</Position>
+</ConstraintGeometry>
+</Coincident>
+<Concentric name="Concentric45">
+<ConstraintGeometry geomType="sphere">
+<InstancePath>
+<Uid>Hiem joint Body - Copy-1</Uid>
+</InstancePath>
+<Position>0 0.040770509831248414 0</Position>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="sphere">
+<InstancePath>
+<Uid>Rose joint Ball-1</Uid>
+</InstancePath>
+<Position>0 0 0</Position>
+</ConstraintGeometry>
+</Concentric>
+<Coincident name="Coincident53">
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>Assembly-1</Uid>
+<Uid>Steering Wheel 3-1</Uid>
+</InstancePath>
+<Position>0.0069999999999999507 0 0</Position>
+<Axis>1 0 -1.8970004813836052e-16</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>steering column and tripod-1</Uid>
+</InstancePath>
+<Position>0 0.040238044478832169 -0.47300000000000009</Position>
+<Axis>0 0 -1</Axis>
+</ConstraintGeometry>
+</Coincident>
+<Coincident name="Coincident54">
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>Chassis 25-12-2025-1</Uid>
+</InstancePath>
+<Position>0.3463560324913833 -0.013664926209240973 -2.2204460492503131e-16</Position>
+<Axis>1 0 0</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>camber caster plate new-2</Uid>
+</InstancePath>
+<Position>0 0 0.0060000000000000053</Position>
+<Axis>0 0 1</Axis>
+</ConstraintGeometry>
+</Coincident>
+<Coincident name="Coincident55">
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>Chassis 25-12-2025-1</Uid>
+</InstancePath>
+<Position>-0.34635603249137514 -0.013664926209241021 -4.2743586448068527e-15</Position>
+<Axis>-1 0 -1.193489751472043e-14</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>camber caster plate new-1</Uid>
+</InstancePath>
+<Position>0 0 0</Position>
+<Axis>0 0 -1</Axis>
+</ConstraintGeometry>
+</Coincident>
+<Coincident name="Coincident56">
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>camber caster plate new-1</Uid>
+</InstancePath>
+<Position>-0.02546077972601718 0 0.0060000000000000053</Position>
+<Axis>-1 -1.4498749248471323e-16 0</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>camber caster plate new-2</Uid>
+</InstancePath>
+<Position>-0.02546077972601718 0 0.0060000000000000053</Position>
+<Axis>-1 -1.4498749248471323e-16 0</Axis>
+</ConstraintGeometry>
+</Coincident>
+<Coincident name="Coincident57">
+<ConstraintGeometry geomType="point">
+<InstancePath>
+<Uid>Chassis 25-12-2025-1</Uid>
+</InstancePath>
+<Position>0.3463560324913833 0.051372068355253452 0.62869254899117744</Position>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="line">
+<InstancePath>
+<Uid>camber caster plate new-2</Uid>
+</InstancePath>
+<Position>-0.025460779726017235 0.077646422339479271 0.0060000000000000053</Position>
+<Axis>1.5240096946390383e-16 -1 0</Axis>
+</ConstraintGeometry>
+</Coincident>
+<Coincident name="Coincident58">
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>camber caster plate new-1</Uid>
+</InstancePath>
+<Position>-0.02546077972601718 -0.016414598181793805 -0.033000000000000029</Position>
+<Axis>0 -1 0</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>camber caster plate new-2</Uid>
+</InstancePath>
+<Position>-0.02546077972601718 -0.016414598181793805 -0.033000000000000015</Position>
+<Axis>0 -1 0</Axis>
+</ConstraintGeometry>
+</Coincident>
+<Parallel name="Parallel2">
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>camber caster plate new-1</Uid>
+</InstancePath>
+<Position>-0.02546077972601718 -0.016414598181793805 -0.033000000000000029</Position>
+<Axis>0 -1 0</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>MATLAB assembly</Uid>
+</InstancePath>
+<Position>0 0 0</Position>
+<Axis>0 1 0</Axis>
+</ConstraintGeometry>
+</Parallel>
+<Concentric name="Concentric46">
+<ConstraintGeometry geomType="sphere">
+<InstancePath>
+<Uid>Hiem joint Body-1</Uid>
+</InstancePath>
+<Position>0 0.040770509831248414 0</Position>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="sphere">
+<InstancePath>
+<Uid>Rose joint Ball-2</Uid>
+</InstancePath>
+<Position>0 0 0</Position>
+</ConstraintGeometry>
+</Concentric>
+<Concentric name="Concentric47">
+<ConstraintGeometry geomType="sphere">
+<InstancePath>
+<Uid>Hiem joint Body-2</Uid>
+</InstancePath>
+<Position>0 0.040770509831248414 0</Position>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="sphere">
+<InstancePath>
+<Uid>Rose joint Ball-3</Uid>
+</InstancePath>
+<Position>0 0 0</Position>
+</ConstraintGeometry>
+</Concentric>
+<UnknownConstraint name="Slot1">
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>Hiem joint Body-1</Uid>
+</InstancePath>
+<Position>0 0.05327050983124848 0</Position>
+<Axis>5.2973667754090916e-16 1 0</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>camber caster plate new-1</Uid>
+</InstancePath>
+<Position>0 0 0.0060000000000000053</Position>
+<Axis>0 0 -1</Axis>
+</ConstraintGeometry>
+</UnknownConstraint>
+<Concentric name="Concentric48">
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>camber caster plate new-1</Uid>
+</InstancePath>
+<Position>0 0 0.0060000000000000053</Position>
+<Axis>0 0 -1</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>Hiem joint Body-2</Uid>
+</InstancePath>
+<Position>0 0.05327050983124848 0</Position>
+<Axis>5.2973667754090925e-16 1 0</Axis>
+</ConstraintGeometry>
+</Concentric>
+<Coincident name="Coincident60">
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>camber caster plate new-1</Uid>
+</InstancePath>
+<Position>0 0 0</Position>
+<Axis>0 0 -1</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>Hiem joint Body-1</Uid>
+</InstancePath>
+<Position>0 0 0</Position>
+<Axis>-5.2973667754090916e-16 -1 0</Axis>
+</ConstraintGeometry>
+</Coincident>
+<Coincident name="Coincident61">
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>Hiem joint Body-1</Uid>
+</InstancePath>
+<Position>0 0 0</Position>
+<Axis>-5.2973667754090916e-16 -1 0</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>Hiem joint Body-2</Uid>
+</InstancePath>
+<Position>0 0 0</Position>
+<Axis>-5.2973667754090925e-16 -1 0</Axis>
+</ConstraintGeometry>
+</Coincident>
+<Concentric name="Concentric49">
+<ConstraintGeometry geomType="sphere">
+<InstancePath>
+<Uid>Rose joint Ball-2</Uid>
+</InstancePath>
+<Position>0 0 0</Position>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>hub steering real 1-1</Uid>
+</InstancePath>
+<Position>0 0.0155 0</Position>
+<Axis>0 -1 0</Axis>
+</ConstraintGeometry>
+</Concentric>
+<Concentric name="Concentric50">
+<ConstraintGeometry geomType="sphere">
+<InstancePath>
+<Uid>Rose joint Ball-3</Uid>
+</InstancePath>
+<Position>0 0 0</Position>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>hub steering real 1-1</Uid>
+</InstancePath>
+<Position>0 0.0155 0</Position>
+<Axis>0 -1 0</Axis>
+</ConstraintGeometry>
+</Concentric>
+<Parallel name="Parallel3">
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>Rose joint Ball-2</Uid>
+</InstancePath>
+<Position>-0.010000000000000009 0.0091097282341586761 0.0050649999999999862</Position>
+<Axis>0 -1.9042538167853657e-16 0.99999999999999989</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>Rose joint Ball-3</Uid>
+</InstancePath>
+<Position>-0.010000000000000009 0.0091097282341587871 -0.0050650000000000035</Position>
+<Axis>0 0 -1</Axis>
+</ConstraintGeometry>
+</Parallel>
+<Concentric name="Concentric51">
+<ConstraintGeometry geomType="sphere">
+<InstancePath>
+<Uid>Rose joint Ball-4</Uid>
+</InstancePath>
+<Position>0 0 0</Position>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="sphere">
+<InstancePath>
+<Uid>Hiem joint Body-3</Uid>
+</InstancePath>
+<Position>0 0.040770509831248428 0</Position>
+</ConstraintGeometry>
+</Concentric>
+<Concentric name="Concentric52">
+<ConstraintGeometry geomType="sphere">
+<InstancePath>
+<Uid>Hiem joint Body-4</Uid>
+</InstancePath>
+<Position>0 0.040770509831248428 0</Position>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="sphere">
+<InstancePath>
+<Uid>Rose joint Ball-5</Uid>
+</InstancePath>
+<Position>0 0 0</Position>
+</ConstraintGeometry>
+</Concentric>
+<Concentric name="Concentric53">
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>camber caster plate new-2</Uid>
+</InstancePath>
+<Position>0 0 0.0060000000000000053</Position>
+<Axis>0 0 -1</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>Hiem joint Body-4</Uid>
+</InstancePath>
+<Position>0 0.053270509831248425 0</Position>
+<Axis>5.2973667754090916e-16 1 0</Axis>
+</ConstraintGeometry>
+</Concentric>
+<Coincident name="Coincident63">
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>camber caster plate new-2</Uid>
+</InstancePath>
+<Position>0 0 0.0060000000000000053</Position>
+<Axis>0 0 1</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>Hiem joint Body-4</Uid>
+</InstancePath>
+<Position>0 0 0</Position>
+<Axis>-5.2973667754090916e-16 -1 0</Axis>
+</ConstraintGeometry>
+</Coincident>
+<UnknownConstraint name="Slot2">
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>Hiem joint Body-3</Uid>
+</InstancePath>
+<Position>0 0.053270509831248425 0</Position>
+<Axis>5.2973667754090955e-16 1 0</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>camber caster plate new-2</Uid>
+</InstancePath>
+<Position>0 0 0.0060000000000000053</Position>
+<Axis>0 0 -1</Axis>
+</ConstraintGeometry>
+</UnknownConstraint>
+<Coincident name="Coincident64">
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>camber caster plate new-2</Uid>
+</InstancePath>
+<Position>0 0 0.0060000000000000053</Position>
+<Axis>0 0 1</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>Hiem joint Body-3</Uid>
+</InstancePath>
+<Position>0 0 0</Position>
+<Axis>-5.2973667754090955e-16 -1 0</Axis>
+</ConstraintGeometry>
+</Coincident>
+<Parallel name="Parallel4">
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>Rose joint Ball-4</Uid>
+</InstancePath>
+<Position>-0.0099999999999998979 0.0091097282341587177 -0.0050649999999999862</Position>
+<Axis>0 0 -1</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>Rose joint Ball-5</Uid>
+</InstancePath>
+<Position>-0.0099999999999999534 0.0091097282341587454 -0.0050650000000000001</Position>
+<Axis>0 0 -1</Axis>
+</ConstraintGeometry>
+</Parallel>
+<Concentric name="Concentric54">
+<ConstraintGeometry geomType="sphere">
+<InstancePath>
+<Uid>Rose joint Ball-4</Uid>
+</InstancePath>
+<Position>0 0 0</Position>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>hub steering real 1-2</Uid>
+</InstancePath>
+<Position>0 0.0155 0</Position>
+<Axis>0 -1 0</Axis>
+</ConstraintGeometry>
+</Concentric>
+<Concentric name="Concentric55">
+<ConstraintGeometry geomType="sphere">
+<InstancePath>
+<Uid>Rose joint Ball-5</Uid>
+</InstancePath>
+<Position>0 0 0</Position>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>hub steering real 1-2</Uid>
+</InstancePath>
+<Position>0 0.0155 0</Position>
+<Axis>0 -1 0</Axis>
+</ConstraintGeometry>
+</Concentric>
+<Concentric name="Concentric56">
+<ConstraintGeometry geomType="sphere">
+<InstancePath>
+<Uid>Hiem joint Body-5</Uid>
+</InstancePath>
+<Position>0 0.040770509831248442 0</Position>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="sphere">
+<InstancePath>
+<Uid>Rose joint Ball-6</Uid>
+</InstancePath>
+<Position>0 0 0</Position>
+</ConstraintGeometry>
+</Concentric>
+<Coincident name="Coincident66">
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>hub steering real 1-2</Uid>
+</InstancePath>
+<Position>0 -0.0025000000000000022 0.11500000000000005</Position>
+<Axis>1.3010426069826073e-16 -1 0</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>Rose joint Ball-6</Uid>
+</InstancePath>
+<Position>-0.010000000000000009 0.0091097282341587454 -0.0050650000000000001</Position>
+<Axis>0 0 -1</Axis>
+</ConstraintGeometry>
+</Coincident>
+<Concentric name="Concentric58">
+<ConstraintGeometry geomType="circle">
+<InstancePath>
+<Uid>hub steering real 1-2</Uid>
+</InstancePath>
+<Position>0.0019999999999999601 -0.0025000000000000022 0.083500000000000019</Position>
+<Axis>1.3010426069826073e-16 -1 0</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="circle">
+<InstancePath>
+<Uid>Rose joint Ball-6</Uid>
+</InstancePath>
+<Position>0 0 0.0050650000000000001</Position>
+<Axis>0 -1.9042538167846912e-16 1</Axis>
+</ConstraintGeometry>
+</Concentric>
+<Concentric name="Concentric59">
+<ConstraintGeometry geomType="sphere">
+<InstancePath>
+<Uid>Hiem joint Body-6</Uid>
+</InstancePath>
+<Position>0 0.040770509831248414 0</Position>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="sphere">
+<InstancePath>
+<Uid>Rose joint Ball-7</Uid>
+</InstancePath>
+<Position>0 0 0</Position>
+</ConstraintGeometry>
+</Concentric>
+<Coincident name="Coincident67">
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>hub steering real 1-1</Uid>
+</InstancePath>
+<Position>0 0.0025000000000000022 0.11500000000000005</Position>
+<Axis>-1.0119220276531359e-16 1 0</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>Rose joint Ball-7</Uid>
+</InstancePath>
+<Position>-0.0099999999999999534 0.0091097282341586761 0.0050650000000000001</Position>
+<Axis>0 -1.9042538167853657e-16 0.99999999999999989</Axis>
+</ConstraintGeometry>
+</Coincident>
+<Concentric name="Concentric60">
+<ConstraintGeometry geomType="circle">
+<InstancePath>
+<Uid>hub steering real 1-1</Uid>
+</InstancePath>
+<Position>0.0020000000000000018 0.0025000000000000161 0.083499999999999963</Position>
+<Axis>0 1 0</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="circle">
+<InstancePath>
+<Uid>Rose joint Ball-7</Uid>
+</InstancePath>
+<Position>0 0 -0.0050650000000000001</Position>
+<Axis>0 0 -0.99999999999999989</Axis>
+</ConstraintGeometry>
+</Concentric>
+<Concentric name="Concentric61">
+<ConstraintGeometry geomType="sphere">
+<InstancePath>
+<Uid>Rose joint Ball-8</Uid>
+</InstancePath>
+<Position>0 0 0</Position>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="sphere">
+<InstancePath>
+<Uid>Hiem joint Body-7</Uid>
+</InstancePath>
+<Position>0 0.040770509831248414 0</Position>
+</ConstraintGeometry>
+</Concentric>
+<Concentric name="Concentric62">
+<ConstraintGeometry geomType="circle">
+<InstancePath>
+<Uid>steering column and tripod-1</Uid>
+</InstancePath>
+<Position>0.014000000000000012 -0.034761955521167842 -0.013000000000000012</Position>
+<Axis>0 0 1</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="circle">
+<InstancePath>
+<Uid>Rose joint Ball-8</Uid>
+</InstancePath>
+<Position>0 0 0.0050649999999999584</Position>
+<Axis>0 -1.9042538167842726e-16 1</Axis>
+</ConstraintGeometry>
+</Concentric>
+<Concentric name="Concentric63">
+<ConstraintGeometry geomType="sphere">
+<InstancePath>
+<Uid>Rose joint Ball-9</Uid>
+</InstancePath>
+<Position>0 0 0</Position>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="sphere">
+<InstancePath>
+<Uid>Hiem joint Body-8</Uid>
+</InstancePath>
+<Position>0 0.040770509831248414 0</Position>
+</ConstraintGeometry>
+</Concentric>
+<Concentric name="Concentric64">
+<ConstraintGeometry geomType="circle">
+<InstancePath>
+<Uid>steering column and tripod-1</Uid>
+</InstancePath>
+<Position>-0.014000000000000012 -0.034761955521167787 -0.013000000000000012</Position>
+<Axis>0 0 1</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="circle">
+<InstancePath>
+<Uid>Rose joint Ball-9</Uid>
+</InstancePath>
+<Position>0 0 0.0050650000000000001</Position>
+<Axis>0 -1.9042538167842726e-16 1</Axis>
+</ConstraintGeometry>
+</Concentric>
+<Parallel name="Parallel5">
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>steering column and tripod-1</Uid>
+</InstancePath>
+<Position>0 0 0</Position>
+<Axis>0 0 -1</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>Rose joint Ball-9</Uid>
+</InstancePath>
+<Position>-0.010000000000000064 0.0091097282341587316 0.0050650000000000278</Position>
+<Axis>0 -1.9042538167842726e-16 1</Axis>
+</ConstraintGeometry>
+</Parallel>
+<Concentric name="Concentric65">
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>Hiem joint Body-5</Uid>
+</InstancePath>
+<Position>0 0.053270509831248453 0</Position>
+<Axis>4.9960036108132044e-16 1.0000000000000002 0</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>tierod steering-1</Uid>
+</InstancePath>
+<Position>-0.41100000000000003 0 0</Position>
+<Axis>1.0000000000000002 0 0</Axis>
+</ConstraintGeometry>
+</Concentric>
+<Concentric name="Concentric66">
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>Hiem joint Body-7</Uid>
+</InstancePath>
+<Position>0 0.053270509831248425 0</Position>
+<Axis>5.4123372450476381e-16 1 0</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>tierod steering-1</Uid>
+</InstancePath>
+<Position>-0.41100000000000003 0 0</Position>
+<Axis>1.0000000000000002 0 0</Axis>
+</ConstraintGeometry>
+</Concentric>
+<Concentric name="Concentric67">
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>Hiem joint Body-8</Uid>
+</InstancePath>
+<Position>0 0.053270509831248425 0</Position>
+<Axis>5.4123372450476381e-16 1 0</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>tierod steering-2</Uid>
+</InstancePath>
+<Position>-0.4110000000000002 0 0</Position>
+<Axis>1 0 0</Axis>
+</ConstraintGeometry>
+</Concentric>
+<Concentric name="Concentric68">
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>Hiem joint Body-6</Uid>
+</InstancePath>
+<Position>0 0.05327050983124848 0</Position>
+<Axis>4.9960036108132044e-16 1.0000000000000002 0</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>tierod steering-2</Uid>
+</InstancePath>
+<Position>-0.4110000000000002 0 0</Position>
+<Axis>1 0 0</Axis>
+</ConstraintGeometry>
+</Concentric>
+<Distance name="Distance1">
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>Hiem joint Body-6</Uid>
+</InstancePath>
+<Position>0 0 0</Position>
+<Axis>-4.9960036108132044e-16 -1.0000000000000002 0</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>tierod steering-2</Uid>
+</InstancePath>
+<Position>-0.32500000000000012 0 0</Position>
+<Axis>-1 -1.0408340855860843e-16 0</Axis>
+</ConstraintGeometry>
+</Distance>
+<Distance name="Distance2">
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>Hiem joint Body-5</Uid>
+</InstancePath>
+<Position>0 0 0</Position>
+<Axis>-4.9960036108132044e-16 -1.0000000000000002 0</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>tierod steering-1</Uid>
+</InstancePath>
+<Position>0 0 0</Position>
+<Axis>0.99999999999999989 1.5265566588595902e-16 0</Axis>
+</ConstraintGeometry>
+</Distance>
+<Distance name="Distance3">
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>tierod steering-1</Uid>
+</InstancePath>
+<Position>-0.32499999999999996 0 0</Position>
+<Axis>-0.99999999999999989 -1.5265566588595902e-16 0</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>Hiem joint Body-7</Uid>
+</InstancePath>
+<Position>0 0 0</Position>
+<Axis>-5.4123372450476381e-16 -1 0</Axis>
+</ConstraintGeometry>
+</Distance>
+<Distance name="Distance4">
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>tierod steering-2</Uid>
+</InstancePath>
+<Position>0 0 0</Position>
+<Axis>1 1.0408340855860843e-16 0</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>Hiem joint Body-8</Uid>
+</InstancePath>
+<Position>0 0 0</Position>
+<Axis>-5.4123372450476381e-16 -1 0</Axis>
+</ConstraintGeometry>
+</Distance>
+<Concentric name="Concentric70">
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>hub steering real 1-2</Uid>
+</InstancePath>
+<Position>0.20500000000000007 0 0</Position>
+<Axis>-1.0000000000000002 0 0</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>front wheel with bearing-3</Uid>
+<Uid>front rim-1</Uid>
+</InstancePath>
+<Position>0 0 -0.057150000000000034</Position>
+<Axis>0 0 -1.0000000000000002</Axis>
+</ConstraintGeometry>
+</Concentric>
+<Distance name="Distance5">
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>front wheel with bearing-3</Uid>
+<Uid>front rim-1</Uid>
+</InstancePath>
+<Position>0 0.01999999999999999 -0.026750000000000052</Position>
+<Axis>0 0 -1.0000000000000002</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>hub steering real 1-2</Uid>
+</InstancePath>
+<Position>0.20500000000000007 0 0</Position>
+<Axis>1.0000000000000002 0 0</Axis>
+</ConstraintGeometry>
+</Distance>
+<Concentric name="Concentric71">
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>hub steering real 1-1</Uid>
+</InstancePath>
+<Position>0.20500000000000007 0 0</Position>
+<Axis>-1.0000000000000002 0 0</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>front wheel with bearing-4</Uid>
+<Uid>front rim-1</Uid>
+</InstancePath>
+<Position>0 0 -0.057150000000000034</Position>
+<Axis>0 0 -1.0000000000000002</Axis>
+</ConstraintGeometry>
+</Concentric>
+<Distance name="Distance6">
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>hub steering real 1-1</Uid>
+</InstancePath>
+<Position>0.20500000000000007 0 0</Position>
+<Axis>1.0000000000000002 0 0</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>front wheel with bearing-4</Uid>
+<Uid>front rim-1</Uid>
+</InstancePath>
+<Position>0 0.01999999999999999 -0.026750000000000052</Position>
+<Axis>0 0 -1.0000000000000002</Axis>
+</ConstraintGeometry>
+</Distance>
+</Constraints>
+</RootAssembly>
+<Assemblies>
+<Assembly name="front wheel with bearing" uid="front wheel with bearing" version="133">
+<ModelUnits mass="kilogram" length="millimeter"/>
+<AssemblyFile name="front wheel with bearing.SLDASM" type="SolidWorks Assembly"/>
+</Assembly>
+<Assembly name="rear wheel" uid="rear wheel" version="143">
+<ModelUnits mass="kilogram" length="millimeter"/>
+<AssemblyFile name="rear wheel.SLDASM" type="SolidWorks Assembly"/>
+</Assembly>
+<Assembly name="Assembly" uid="Assembly" version="246">
+<ModelUnits mass="kilogram" length="millimeter"/>
+<AssemblyFile name="Assembly.SLDASM" type="SolidWorks Assembly"/>
+</Assembly>
+</Assemblies>
+<Parts>
+<Part name="Chassis 25-12-2025" uid="Chassis 25-12-2025*:*Default&lt;As Machined&gt;" version="8292">
+<ModelUnits mass="kilogram" length="inch"/>
+<PartFile name="Chassis 25-12-2025.SLDPRT" type="SolidWorks Part"/>
+<MassProperties>
+<Mass>16.73400827082893</Mass>
+<CenterOfMass>-0.0054759746436828611 0.10539591831598955 0.1212632392026686</CenterOfMass>
+<Inertia>4.6278953520306096 6.3072120487102028 2.9377729859956023 0.40689069053962718 -0.014122478263064233 -0.01034644417923985</Inertia>
+</MassProperties>
+<GeometryFile name="Chassis 25-12-2025_Default&lt;As Machined&gt;_sldprt.STEP" type="STEP"/>
+<VisualProperties>
+<Ambient r="0.77647058823529413" g="0.77647058823529413" b="0.81960784313725488" a="1"/>
+<Diffuse r="0.77647058823529413" g="0.77647058823529413" b="0.81960784313725488" a="1"/>
+<Specular r="0.38823529411764707" g="0.38823529411764707" b="0.40980392156862744" a="1"/>
+<Emissive r="0" g="0" b="0" a="1"/>
+<Shininess>0.3125</Shininess>
+</VisualProperties>
+</Part>
+<Part name="FrontPanels" uid="FrontPanels*:*Default" version="734">
+<ModelUnits mass="kilogram" length="inch"/>
+<PartFile name="FrontPanels.SLDPRT" type="SolidWorks Part"/>
+<MassProperties>
+<Mass>1.8928972949478371</Mass>
+<CenterOfMass>3.5786673240838416e-05 -0.91331435067430289 0.19011993015241516</CenterOfMass>
+<Inertia>0.17227387046310511 0.28868218576430971 0.30611987177939659 -0.078071750106709983 -4.3720333255722194e-06 -1.5297964964860675e-06</Inertia>
+</MassProperties>
+<GeometryFile name="FrontPanels_Default_sldprt.STEP" type="STEP"/>
+<VisualProperties>
+<Ambient r="0.10196078431372549" g="0.10196078431372549" b="0.10196078431372549" a="1"/>
+<Diffuse r="0.10196078431372549" g="0.10196078431372549" b="0.10196078431372549" a="1"/>
+<Specular r="0.040784313725490198" g="0.040784313725490198" b="0.040784313725490198" a="1"/>
+<Emissive r="0" g="0" b="0" a="1"/>
+<Shininess>0.3125</Shininess>
+</VisualProperties>
+</Part>
+<Part name="Handle left back" uid="Handle left back*:*Default" version="131">
+<ModelUnits mass="kilogram" length="millimeter"/>
+<PartFile name="Handle left back.SLDPRT" type="SolidWorks Part"/>
+<MassProperties>
+<Mass>0.13776609359903133</Mass>
+<CenterOfMass>0.0093107854059441882 -0.10153231270377903 0.063540735988749902</CenterOfMass>
+<Inertia>0.00038353302023291552 0.0003623516511013296 2.9592443400032694e-05 -4.0514215665738271e-05 3.0425160132590781e-07 -2.7750824586954689e-08</Inertia>
+</MassProperties>
+<GeometryFile name="Handle left back_Default_sldprt.STEP" type="STEP"/>
+<VisualProperties>
+<Ambient r="0.792156862745098" g="0.81960784313725488" b="0.93333333333333335" a="1"/>
+<Diffuse r="0.792156862745098" g="0.81960784313725488" b="0.93333333333333335" a="1"/>
+<Specular r="0.396078431372549" g="0.40980392156862744" b="0.46666666666666667" a="1"/>
+<Emissive r="0" g="0" b="0" a="1"/>
+<Shininess>0.3125</Shininess>
+</VisualProperties>
+</Part>
+<Part name="Handle left front" uid="Handle left front*:*Default" version="225">
+<ModelUnits mass="kilogram" length="millimeter"/>
+<PartFile name="Handle left front.SLDPRT" type="SolidWorks Part"/>
+<MassProperties>
+<Mass>0.044518149004255374</Mass>
+<CenterOfMass>0.0037126152606605941 0.0040316270955058856 -0.082985353814647569</CenterOfMass>
+<Inertia>0.00012438425317692569 0.00011543877751138447 9.3576753946365873e-06 -1.5638004020505667e-05 7.6992485266464513e-07 3.9039435070507922e-08</Inertia>
+</MassProperties>
+<GeometryFile name="Handle left front_Default_sldprt.STEP" type="STEP"/>
+<VisualProperties>
+<Ambient r="0.792156862745098" g="0.81960784313725488" b="0.93333333333333335" a="1"/>
+<Diffuse r="0.792156862745098" g="0.81960784313725488" b="0.93333333333333335" a="1"/>
+<Specular r="0.396078431372549" g="0.40980392156862744" b="0.46666666666666667" a="1"/>
+<Emissive r="0" g="0" b="0" a="1"/>
+<Shininess>0.3125</Shininess>
+</VisualProperties>
+</Part>
+<Part name="Handle right back" uid="Handle right back*:*Default" version="106">
+<ModelUnits mass="kilogram" length="millimeter"/>
+<PartFile name="Handle right back.SLDPRT" type="SolidWorks Part"/>
+<MassProperties>
+<Mass>0.13777097802678553</Mass>
+<CenterOfMass>0.0093105517332291044 0.10153270809777606 0.063542073597750034</CenterOfMass>
+<Inertia>0.00038353012368915997 0.000362348184745149 2.9593399655240674e-05 4.0511558552517428e-05 3.0361759256265605e-07 2.8475529827992581e-08</Inertia>
+</MassProperties>
+<GeometryFile name="Handle right back_Default_sldprt.STEP" type="STEP"/>
+<VisualProperties>
+<Ambient r="0.792156862745098" g="0.81960784313725488" b="0.93333333333333335" a="1"/>
+<Diffuse r="0.792156862745098" g="0.81960784313725488" b="0.93333333333333335" a="1"/>
+<Specular r="0.396078431372549" g="0.40980392156862744" b="0.46666666666666667" a="1"/>
+<Emissive r="0" g="0" b="0" a="1"/>
+<Shininess>0.3125</Shininess>
+</VisualProperties>
+</Part>
+<Part name="Handle right front" uid="Handle right front*:*Default" version="112">
+<ModelUnits mass="kilogram" length="millimeter"/>
+<PartFile name="Handle right front.SLDPRT" type="SolidWorks Part"/>
+<MassProperties>
+<Mass>0.044518547216551574</Mass>
+<CenterOfMass>-0.0037129356207242976 0.0040304183135970893 -0.082985100152827632</CenterOfMass>
+<Inertia>0.00012437876912854768 0.00011543219984607207 9.3588355684245002e-06 -1.5640811041619646e-05 -7.7028765023236776e-07 -3.9181431126089034e-08</Inertia>
+</MassProperties>
+<GeometryFile name="Handle right front_Default_sldprt.STEP" type="STEP"/>
+<VisualProperties>
+<Ambient r="0.792156862745098" g="0.81960784313725488" b="0.93333333333333335" a="1"/>
+<Diffuse r="0.792156862745098" g="0.81960784313725488" b="0.93333333333333335" a="1"/>
+<Specular r="0.396078431372549" g="0.40980392156862744" b="0.46666666666666667" a="1"/>
+<Emissive r="0" g="0" b="0" a="1"/>
+<Shininess>0.3125</Shininess>
+</VisualProperties>
+</Part>
+<Part name="Hiem joint Body - Copy" uid="Hiem joint Body - Copy*:*Default" version="290">
+<ModelUnits mass="kilogram" length="millimeter"/>
+<PartFile name="Hiem joint Body - Copy.SLDPRT" type="SolidWorks Part"/>
+<MassProperties>
+<Mass>0.01396056884073261</Mass>
+<CenterOfMass>0 0.040770509831248428 0</CenterOfMass>
+<Inertia>9.5398287441090925e-07 9.5405926563856145e-07 1.6693218762156387e-06 0 0 0</Inertia>
+</MassProperties>
+<GeometryFile name="Hiem joint Body - Copy_Default_sldprt.STEP" type="STEP"/>
+<VisualProperties>
+<Ambient r="0.77647058823529413" g="0.75686274509803919" b="0.73725490196078436" a="1"/>
+<Diffuse r="0.77647058823529413" g="0.75686274509803919" b="0.73725490196078436" a="1"/>
+<Specular r="0.54352941176470582" g="0.52980392156862743" b="0.51607843137254905" a="1"/>
+<Emissive r="0.16305882352941176" g="0.15894117647058822" b="0.15482352941176472" a="1"/>
+<Shininess>0.3125</Shininess>
+</VisualProperties>
+</Part>
+<Part name="Hiem joint Body" uid="Hiem joint Body*:*Default" version="280">
+<ModelUnits mass="kilogram" length="millimeter"/>
+<PartFile name="Hiem joint Body.SLDPRT" type="SolidWorks Part"/>
+<MassProperties>
+<Mass>0.033784720024629747</Mass>
+<CenterOfMass>2.8472824353049855e-07 0.025515322914184436 -5.9456264108239169e-08</CenterOfMass>
+<Inertia>8.0682204653596689e-06 1.2395690818287774e-06 8.7920700827937281e-06 -1.216248022814644e-09 -2.0911161877744751e-11 1.0614418622916891e-10</Inertia>
+</MassProperties>
+<GeometryFile name="Hiem joint Body_Default_sldprt.STEP" type="STEP"/>
+<VisualProperties>
+<Ambient r="0.77647058823529413" g="0.75686274509803919" b="0.73725490196078436" a="1"/>
+<Diffuse r="0.77647058823529413" g="0.75686274509803919" b="0.73725490196078436" a="1"/>
+<Specular r="0.54352941176470582" g="0.52980392156862743" b="0.51607843137254905" a="1"/>
+<Emissive r="0.16305882352941176" g="0.15894117647058822" b="0.15482352941176472" a="1"/>
+<Shininess>0.3125</Shininess>
+</VisualProperties>
+</Part>
+<Part name="MANCAL UCFL208CC" uid="MANCAL UCFL208CC*:*Default" version="620">
+<ModelUnits mass="kilogram" length="millimeter"/>
+<PartFile name="MANCAL UCFL208CC.SLDPRT" type="SolidWorks Part"/>
+<MassProperties>
+<Mass>0.20258600958714656</Mass>
+<CenterOfMass>-0.0026166137294387467 -2.588736060709226e-05 -2.1051056742355459e-05</CenterOfMass>
+<Inertia>0.00039286943027508239 0.00015086732084926681 0.00029495889245781219 1.6504695011423649e-07 5.5790395259335113e-08 5.1825433763200698e-08</Inertia>
+</MassProperties>
+<GeometryFile name="MANCAL UCFL208CC_Default_sldprt.STEP" type="STEP"/>
+<VisualProperties>
+<Ambient r="0.50196078431372548" g="0.50196078431372548" b="0.50196078431372548" a="1"/>
+<Diffuse r="0.50196078431372548" g="0.50196078431372548" b="0.50196078431372548" a="1"/>
+<Specular r="0.25098039215686274" g="0.25098039215686274" b="0.25098039215686274" a="1"/>
+<Emissive r="0" g="0" b="0" a="1"/>
+<Shininess>0.40000000596046448</Shininess>
+</VisualProperties>
+</Part>
+<Part name="Rear Tyre" uid="Rear Tyre*:*Default" version="115">
+<ModelUnits mass="kilogram" length="millimeter"/>
+<PartFile name="Rear Tyre.SLDPRT" type="SolidWorks Part"/>
+<MassProperties>
+<Mass>1.5582646418610591</Mass>
+<CenterOfMass>0 0 -4.6372591936064189e-14</CenterOfMass>
+<Inertia>0.020390279368559357 0.020390279368559357 0.026080673823876924 0 0 0</Inertia>
+</MassProperties>
+<GeometryFile name="Rear Tyre_Default_sldprt.STEP" type="STEP"/>
+<VisualProperties>
+<Ambient r="0.29803921568627451" g="0.29803921568627451" b="0.29803921568627451" a="1"/>
+<Diffuse r="0.29803921568627451" g="0.29803921568627451" b="0.29803921568627451" a="1"/>
+<Specular r="0.14901960784313725" g="0.14901960784313725" b="0.14901960784313725" a="1"/>
+<Emissive r="0" g="0" b="0" a="1"/>
+<Shininess>0.80000001192092896</Shininess>
+</VisualProperties>
+</Part>
+<Part name="Rose joint Ball" uid="Rose joint Ball*:*Default" version="115">
+<ModelUnits mass="kilogram" length="millimeter"/>
+<PartFile name="Rose joint Ball.SLDPRT" type="SolidWorks Part"/>
+<MassProperties>
+<Mass>0.010858665536713042</Mass>
+<CenterOfMass>-3.9503246479999223e-08 0 1.6659871840672418e-07</CenterOfMass>
+<Inertia>4.7057147723937799e-07 4.7060916176598151e-07 7.5549400945957751e-07 0 7.8576875438887016e-13 0</Inertia>
+</MassProperties>
+<GeometryFile name="Rose joint Ball_Default_sldprt.STEP" type="STEP"/>
+<VisualProperties>
+<Ambient r="0.77647058823529413" g="0.75686274509803919" b="0.73725490196078436" a="1"/>
+<Diffuse r="0.77647058823529413" g="0.75686274509803919" b="0.73725490196078436" a="1"/>
+<Specular r="0.54352941176470582" g="0.52980392156862743" b="0.51607843137254905" a="1"/>
+<Emissive r="0.16305882352941176" g="0.15894117647058822" b="0.15482352941176472" a="1"/>
+<Shininess>0.3125</Shininess>
+</VisualProperties>
+</Part>
+<Part name="SidePods" uid="SidePods*:*Default" version="146">
+<ModelUnits mass="kilogram" length="inch"/>
+<PartFile name="SidePods.SLDPRT" type="SolidWorks Part"/>
+<MassProperties>
+<Mass>0.80198145269740606</Mass>
+<CenterOfMass>0.70760029339371577 1.2265077139404508 2.6021922843475407</CenterOfMass>
+<Inertia>0.030320577421796759 0.3387708556913247 0.31761387294814702 -0.00043247440373223766 0 0</Inertia>
+</MassProperties>
+<GeometryFile name="SidePods_Default_sldprt.STEP" type="STEP"/>
+<VisualProperties>
+<Ambient r="0.10196078431372549" g="0.10196078431372549" b="0.10196078431372549" a="1"/>
+<Diffuse r="0.10196078431372549" g="0.10196078431372549" b="0.10196078431372549" a="1"/>
+<Specular r="0.040784313725490198" g="0.040784313725490198" b="0.040784313725490198" a="1"/>
+<Emissive r="0" g="0" b="0" a="1"/>
+<Shininess>0.3125</Shininess>
+</VisualProperties>
+</Part>
+<Part name="Steering Wheel 3" uid="Steering Wheel 3*:*Default" version="483">
+<ModelUnits mass="kilogram" length="millimeter"/>
+<PartFile name="Steering Wheel 3.SLDPRT" type="SolidWorks Part"/>
+<MassProperties>
+<Mass>0.19692727075680183</Mass>
+<CenterOfMass>0.001747815812285995 1.1059006309437959e-06 0.0076683591095959604</CenterOfMass>
+<Inertia>0.0016228473122844576 0.00026941342433919706 0.0013540628323879882 5.9322514967736292e-08 3.7433560285055918e-07 2.5956377008215617e-10</Inertia>
+</MassProperties>
+<GeometryFile name="Steering Wheel 3_Default_sldprt.STEP" type="STEP"/>
+<VisualProperties>
+<Ambient r="0.8666666666666667" g="0.90980392156862744" b="1" a="1"/>
+<Diffuse r="0.8666666666666667" g="0.90980392156862744" b="1" a="1"/>
+<Specular r="0.43333333333333335" g="0.45490196078431372" b="0.5" a="1"/>
+<Emissive r="0" g="0" b="0" a="1"/>
+<Shininess>0.3125</Shininess>
+</VisualProperties>
+</Part>
+<Part name="base plate steering" uid="base plate steering*:*Default&lt;As Machined&gt;" version="221">
+<ModelUnits mass="kilogram" length="millimeter"/>
+<PartFile name="base plate steering.SLDPRT" type="SolidWorks Part"/>
+<MassProperties>
+<Mass>0.43173049878892772</Mass>
+<CenterOfMass>0 0.0030000000000000001 0</CenterOfMass>
+<Inertia>5.5319467327368179e-05 0.002488215930027403 0.0024354868456927681 0 0 0</Inertia>
+</MassProperties>
+<GeometryFile name="base plate steering_Default&lt;As Machined&gt;_sldprt.STEP" type="STEP"/>
+<VisualProperties>
+<Ambient r="0.77647058823529413" g="0.75686274509803919" b="0.73725490196078436" a="1"/>
+<Diffuse r="0.77647058823529413" g="0.75686274509803919" b="0.73725490196078436" a="1"/>
+<Specular r="0.54352941176470582" g="0.52980392156862743" b="0.51607843137254905" a="1"/>
+<Emissive r="0" g="0" b="0" a="1"/>
+<Shininess>0.3125</Shininess>
+</VisualProperties>
+</Part>
+<Part name="bucket seat" uid="bucket seat*:*Default" version="106">
+<ModelUnits mass="kilogram" length="millimeter"/>
+<PartFile name="bucket seat.SLDPRT" type="SolidWorks Part"/>
+<MassProperties>
+<Mass>0.34474155071347962</Mass>
+<CenterOfMass>-0.00061771692215093963 0.15232277351948098 -0.12981997904106302</CenterOfMass>
+<Inertia>0.011514931475606624 0.011164910155604746 0.011523126311940217 0.0042496295042506183 -4.123397124654573e-06 8.4947667899402151e-06</Inertia>
+</MassProperties>
+<GeometryFile name="bucket seat_Default_sldprt.STEP" type="STEP"/>
+<VisualProperties>
+<Ambient r="1" g="1" b="1" a="1"/>
+<Diffuse r="1" g="1" b="1" a="1"/>
+<Specular r="1" g="1" b="1" a="1"/>
+<Emissive r="0" g="0" b="0" a="1"/>
+<Shininess>0.3125</Shininess>
+</VisualProperties>
+</Part>
+<Part name="bush" uid="bush*:*Default" version="141">
+<ModelUnits mass="kilogram" length="inch"/>
+<PartFile name="bush.SLDPRT" type="SolidWorks Part"/>
+<MassProperties>
+<Mass>0.01665829233891674</Mass>
+<CenterOfMass>-1.8700279050068401e-07 -1.0984184512123129e-08 0.0045673134292785458</CenterOfMass>
+<Inertia>1.7891156005125703e-06 5.6052081578444681e-06 4.9320818718614975e-06 1.6677000326328436e-11 6.3908852555517436e-12 -1.5077839429699365e-11</Inertia>
+</MassProperties>
+<GeometryFile name="bush_Default_sldprt.STEP" type="STEP"/>
+<VisualProperties>
+<Ambient r="0.792156862745098" g="0.81960784313725488" b="0.93333333333333335" a="1"/>
+<Diffuse r="0.792156862745098" g="0.81960784313725488" b="0.93333333333333335" a="1"/>
+<Specular r="0.396078431372549" g="0.40980392156862744" b="0.46666666666666667" a="1"/>
+<Emissive r="0" g="0" b="0" a="1"/>
+<Shininess>0.3125</Shininess>
+</VisualProperties>
+</Part>
+<Part name="camber caster plate new" uid="camber caster plate new*:*Default" version="199">
+<ModelUnits mass="kilogram" length="inch"/>
+<PartFile name="camber caster plate new.SLDPRT" type="SolidWorks Part"/>
+<MassProperties>
+<Mass>0.2148420888607144</Mass>
+<CenterOfMass>0 0.03267330922429762 0.0029999999999999988</CenterOfMass>
+<Inertia>0.00018844244192177964 5.0626415991964962e-05 0.00023777980538058029 0 0 0</Inertia>
+</MassProperties>
+<GeometryFile name="camber caster plate new_Default_sldprt.STEP" type="STEP"/>
+<VisualProperties>
+<Ambient r="0.77647058823529413" g="0.75686274509803919" b="0.73725490196078436" a="1"/>
+<Diffuse r="0.77647058823529413" g="0.75686274509803919" b="0.73725490196078436" a="1"/>
+<Specular r="0.54352941176470582" g="0.52980392156862743" b="0.51607843137254905" a="1"/>
+<Emissive r="0" g="0" b="0" a="1"/>
+<Shininess>0.3125</Shininess>
+</VisualProperties>
+</Part>
+<Part name="front rim" uid="front rim*:*Default" version="136">
+<ModelUnits mass="kilogram" length="millimeter"/>
+<PartFile name="front rim.SLDPRT" type="SolidWorks Part"/>
+<MassProperties>
+<Mass>0.87422923428794264</Mass>
+<CenterOfMass>8.36357145966624e-11 0 0.004217613718478363</CenterOfMass>
+<Inertia>0.001559111559051753 0.0015591115621661476 0.0016691958143879642 -8.3831399402382753e-14 6.610303021401573e-13 2.9246687978978553e-13</Inertia>
+</MassProperties>
+<GeometryFile name="front rim_Default_sldprt.STEP" type="STEP"/>
+<VisualProperties>
+<Ambient r="0.66666666666666663" g="0.69803921568627447" b="0.76862745098039209" a="1"/>
+<Diffuse r="0.66666666666666663" g="0.69803921568627447" b="0.76862745098039209" a="1"/>
+<Specular r="0.33333333333333331" g="0.34901960784313724" b="0.38431372549019605" a="1"/>
+<Emissive r="0" g="0" b="0" a="1"/>
+<Shininess>0.3125</Shininess>
+</VisualProperties>
+</Part>
+<Part name="front tyre" uid="front tyre*:*Default" version="106">
+<ModelUnits mass="kilogram" length="millimeter"/>
+<PartFile name="front tyre.SLDPRT" type="SolidWorks Part"/>
+<MassProperties>
+<Mass>1.019457353973567</Mass>
+<CenterOfMass>0 0 0</CenterOfMass>
+<Inertia>0.0089995896994266734 0.0089995896994266734 0.01385687558710242 0 0 0</Inertia>
+</MassProperties>
+<GeometryFile name="front tyre_Default_sldprt.STEP" type="STEP"/>
+<VisualProperties>
+<Ambient r="0.29803921568627451" g="0.29803921568627451" b="0.29803921568627451" a="1"/>
+<Diffuse r="0.29803921568627451" g="0.29803921568627451" b="0.29803921568627451" a="1"/>
+<Specular r="0.14901960784313725" g="0.14901960784313725" b="0.14901960784313725" a="1"/>
+<Emissive r="0" g="0" b="0" a="1"/>
+<Shininess>0.80000001192092896</Shininess>
+</VisualProperties>
+</Part>
+<Part name="hub steering real 1" uid="hub steering real 1*:*Default" version="484">
+<ModelUnits mass="kilogram" length="millimeter"/>
+<PartFile name="hub steering real 1.SLDPRT" type="SolidWorks Part"/>
+<MassProperties>
+<Mass>0.070881353864918034</Mass>
+<CenterOfMass>0.033213476675823556 1.7107996128510097e-08 0.01267184580546854</CenterOfMass>
+<Inertia>6.455006056863348e-05 0.00031267778126106851 0.00025433221052426134 1.5700563956508847e-11 2.9859630144116354e-05 -1.3958403550395623e-10</Inertia>
+</MassProperties>
+<GeometryFile name="hub steering real 1_Default_sldprt.STEP" type="STEP"/>
+<VisualProperties>
+<Ambient r="0.792156862745098" g="0.81960784313725488" b="0.93333333333333335" a="1"/>
+<Diffuse r="0.792156862745098" g="0.81960784313725488" b="0.93333333333333335" a="1"/>
+<Specular r="0.396078431372549" g="0.40980392156862744" b="0.46666666666666667" a="1"/>
+<Emissive r="0" g="0" b="0" a="1"/>
+<Shininess>0.3125</Shininess>
+</VisualProperties>
+</Part>
+<Part name="main shaft" uid="main shaft*:*Default" version="254">
+<ModelUnits mass="kilogram" length="millimeter"/>
+<PartFile name="main shaft.SLDPRT" type="SolidWorks Part"/>
+<MassProperties>
+<Mass>4.8262684898152344</Mass>
+<CenterOfMass>-1.6088976466589936e-10 -0.00052183288826036995 0.57499999925688905</CenterOfMass>
+<Inertia>0.53133398886748884 0.5313806792640754 0.0015021646828645588 8.2477592719037955e-11 -1.7754546921390165e-08 2.5618768039770602e-11</Inertia>
+</MassProperties>
+<GeometryFile name="main shaft_Default_sldprt.STEP" type="STEP"/>
+<VisualProperties>
+<Ambient r="0.65098039215686276" g="0.61960784313725492" b="0.58823529411764708" a="1"/>
+<Diffuse r="0.65098039215686276" g="0.61960784313725492" b="0.58823529411764708" a="1"/>
+<Specular r="0.52078431372549028" g="0.49568627450980396" b="0.4705882352941177" a="1"/>
+<Emissive r="0" g="0" b="0" a="1"/>
+<Shininess>0.3125</Shininess>
+</VisualProperties>
+</Part>
+<Part name="rear rim" uid="rear rim*:*Default" version="184">
+<ModelUnits mass="kilogram" length="millimeter"/>
+<PartFile name="rear rim.SLDPRT" type="SolidWorks Part"/>
+<MassProperties>
+<Mass>0.87394432834504443</Mass>
+<CenterOfMass>0 0 0.013875083985761531</CenterOfMass>
+<Inertia>0.0039382506294326179 0.003938250629432617 0.0022500784558200549 0 0 0</Inertia>
+</MassProperties>
+<GeometryFile name="rear rim_Default_sldprt.STEP" type="STEP"/>
+<VisualProperties>
+<Ambient r="0.66666666666666663" g="0.69803921568627447" b="0.76862745098039209" a="1"/>
+<Diffuse r="0.66666666666666663" g="0.69803921568627447" b="0.76862745098039209" a="1"/>
+<Specular r="0.33333333333333331" g="0.34901960784313724" b="0.38431372549019605" a="1"/>
+<Emissive r="0" g="0" b="0" a="1"/>
+<Shininess>0.3125</Shininess>
+</VisualProperties>
+</Part>
+<Part name="steering column and tripod" uid="steering column and tripod*:*Default" version="316">
+<ModelUnits mass="kilogram" length="millimeter"/>
+<PartFile name="steering column and tripod.SLDPRT" type="SolidWorks Part"/>
+<MassProperties>
+<Mass>0.082279316992597398</Mass>
+<CenterOfMass>-9.1715059676997266e-06 0.032228163968932376 -0.14693453103695428</CenterOfMass>
+<Inertia>0.0022908447665104534 0.0022631754676478107 3.7370370703138504e-05 9.3541597495394027e-05 1.0710738051561829e-07 -4.1073748628982308e-08</Inertia>
+</MassProperties>
+<GeometryFile name="steering column and tripod_Default_sldprt.STEP" type="STEP"/>
+<VisualProperties>
+<Ambient r="0.792156862745098" g="0.81960784313725488" b="0.93333333333333335" a="1"/>
+<Diffuse r="0.792156862745098" g="0.81960784313725488" b="0.93333333333333335" a="1"/>
+<Specular r="0.396078431372549" g="0.40980392156862744" b="0.46666666666666667" a="1"/>
+<Emissive r="0" g="0" b="0" a="1"/>
+<Shininess>0.3125</Shininess>
+</VisualProperties>
+</Part>
+<Part name="tierod steering" uid="tierod steering*:*Default" version="533">
+<ModelUnits mass="kilogram" length="millimeter"/>
+<PartFile name="tierod steering.SLDPRT" type="SolidWorks Part"/>
+<MassProperties>
+<Mass>0.017612553814187765</Mass>
+<CenterOfMass>-0.16249999999999995 0 0</CenterOfMass>
+<Inertia>5.9222212200206391e-07 0.00015532327744629968 0.00015532327744629968 0 0 0</Inertia>
+</MassProperties>
+<GeometryFile name="tierod steering_Default_sldprt.STEP" type="STEP"/>
+<VisualProperties>
+<Ambient r="0.792156862745098" g="0.81960784313725488" b="0.93333333333333335" a="1"/>
+<Diffuse r="0.792156862745098" g="0.81960784313725488" b="0.93333333333333335" a="1"/>
+<Specular r="0.396078431372549" g="0.40980392156862744" b="0.46666666666666667" a="1"/>
+<Emissive r="0" g="0" b="0" a="1"/>
+<Shininess>0.3125</Shininess>
+</VisualProperties>
+</Part>
+<Part name="xmas bearing left" uid="xmas bearing left*:*Default" version="718">
+<ModelUnits mass="kilogram" length="millimeter"/>
+<PartFile name="xmas bearing left.SLDPRT" type="SolidWorks Part"/>
+<MassProperties>
+<Mass>0.37917400203944307</Mass>
+<CenterOfMass>0.097905264585961271 -0.0071266306624420666 0.075407490854809828</CenterOfMass>
+<Inertia>0.00029572064450009616 0.0023183511351639306 0.0021097879064675687 2.4587606601341945e-05 -1.9525467490856867e-06 -9.3309897373283638e-07</Inertia>
+</MassProperties>
+<GeometryFile name="xmas bearing left_Default_sldprt.STEP" type="STEP"/>
+<VisualProperties>
+<Ambient r="0.77647058823529413" g="0.75686274509803919" b="0.73725490196078436" a="1"/>
+<Diffuse r="0.77647058823529413" g="0.75686274509803919" b="0.73725490196078436" a="1"/>
+<Specular r="0.54352941176470582" g="0.52980392156862743" b="0.51607843137254905" a="1"/>
+<Emissive r="0" g="0" b="0" a="1"/>
+<Shininess>0.3125</Shininess>
+</VisualProperties>
+</Part>
+<Part name="xmas bearing" uid="xmas bearing*:*Default" version="397">
+<ModelUnits mass="kilogram" length="millimeter"/>
+<PartFile name="xmas bearing.SLDPRT" type="SolidWorks Part"/>
+<MassProperties>
+<Mass>0.37942359123229752</Mass>
+<CenterOfMass>0.09789453266735372 0.0071273177989964092 0.075407093483197768</CenterOfMass>
+<Inertia>0.00029601268366322072 0.002319956186041903 0.0021111467170460084 -2.4628195806492509e-05 -2.0205745774043195e-06 1.0783222878357038e-06</Inertia>
+</MassProperties>
+<GeometryFile name="xmas bearing_Default_sldprt.STEP" type="STEP"/>
+<VisualProperties>
+<Ambient r="0.77647058823529413" g="0.75686274509803919" b="0.73725490196078436" a="1"/>
+<Diffuse r="0.77647058823529413" g="0.75686274509803919" b="0.73725490196078436" a="1"/>
+<Specular r="0.54352941176470582" g="0.52980392156862743" b="0.51607843137254905" a="1"/>
+<Emissive r="0" g="0" b="0" a="1"/>
+<Shininess>0.3125</Shininess>
+</VisualProperties>
+</Part>
+</Parts>
+</SimscapeMultibodyImportXML>

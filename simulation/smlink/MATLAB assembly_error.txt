@@ -1,0 +1,40 @@
+Constrained Instances: 'base plate steering-1', 'base plate steering-1', 'Chassis 25-12-2025-1'
+Constraint Name: Symmetric1
+Error Details: Constraint is not supported. The constraint has been ignored.
+---------------------------------------------------------------------------------
+Constrained Instances: 'Chassis 25-12-2025-1', 'bush-1', 'bush-1'
+Constraint Name: Symmetric2
+Error Details: Constraint is not supported. The constraint has been ignored.
+---------------------------------------------------------------------------------
+Constrained Instances: 'main shaft-1', 'main shaft-1', 'Chassis 25-12-2025-1', 'Chassis 25-12-2025-1'
+Constraint Name: Width1
+Error Details: Constraint is not supported. The constraint has been ignored.
+---------------------------------------------------------------------------------
+Constrained Instances: 'Chassis 25-12-2025-1', 'bush-1', 'bush-1'
+Constraint Name: Symmetric3
+Error Details: Constraint is not supported. The constraint has been ignored.
+---------------------------------------------------------------------------------
+Constrained Instances: 'Hiem joint Body-1', 'camber caster plate new-1'
+Constraint Name: Slot1
+Error Details: Constraint is not supported. The constraint has been exported as unknown constraint.
+---------------------------------------------------------------------------------
+Constrained Instances: 'Rose joint Ball-2', 'Rose joint Ball-3', 'hub steering real 1-1', 'hub steering real 1-1'
+Constraint Name: Width3
+Error Details: Constraint is not supported. The constraint has been ignored.
+---------------------------------------------------------------------------------
+Constrained Instances: 'Hiem joint Body-3', 'camber caster plate new-2'
+Constraint Name: Slot2
+Error Details: Constraint is not supported. The constraint has been exported as unknown constraint.
+---------------------------------------------------------------------------------
+Constrained Instances: 'hub steering real 1-2', 'hub steering real 1-2', 'Rose joint Ball-4', 'Rose joint Ball-5'
+Constraint Name: Width4
+Error Details: Constraint is not supported. The constraint has been ignored.
+---------------------------------------------------------------------------------
+Constrained Instances: 'Rose joint Ball-8', 'Rose joint Ball-8', 'steering column and tripod-1', 'steering column and tripod-1'
+Constraint Name: Width5
+Error Details: Constraint is not supported. The constraint has been ignored.
+---------------------------------------------------------------------------------
+Constrained Instances: 'Rose joint Ball-9', 'Rose joint Ball-9', 'steering column and tripod-1', 'steering column and tripod-1'
+Constraint Name: Width6
+Error Details: Constraint is not supported. The constraint has been ignored.
+---------------------------------------------------------------------------------
