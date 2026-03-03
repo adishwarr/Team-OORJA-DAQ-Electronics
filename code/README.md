@@ -6,3 +6,11 @@ has push buttons for lap counter increment and decrement. uses Matrix display to
 
 
 <h1>RECEIVER_ESP.ino</h1><br>
+Runs on ESP32
+Uses LoRa for real-time data reception
+Receives telemetry data from the transmitter node and processes it in real time
+Displays live parameters on connected display interface
+Stores received data for further analysis (optional SD/Flash storage support)
+Implements wireless communication reliability checks (packet validation / RSSI monitoring)
+Can interface with Wi-Fi for cloud upload or dashboard visualization
+Designed for low-latency, high-reliability embedded telemetry applications
